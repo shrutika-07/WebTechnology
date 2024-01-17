@@ -1,0 +1,15 @@
+User Name: Shrutika Gade
+Address: Lake Wood
+House Number: 304
+Consumer ID: 7323
+Units Consumed: 2000
+Date of Issuing: 2024-01-01
+Due Date: 2024-01-17
+
+Bill Breakdown:
+Units (above 250): 1750 x Rs. 6.50
+Units (next 100): 100 x Rs. 5.20
+Units (next 100): 100 x Rs. 4.00
+Units (first 50): 50 x Rs. 3.50
+
+Total Bill: Rs. 12,470.00

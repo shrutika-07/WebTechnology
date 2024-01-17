@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shrutika Gade | CV</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    a {
+      color: #465eae;
+    }
+
+    li {
+      list-style: none;
+      text-decoration: none;
+      color: #000;
+    }
+
+    body {
+      background-color: #153c3e;
+
+    }
+
+    .about-me {
+      width: 50%;
+    }
+
+    .main {
+      display: flex;
+      flex-direction: row;
+      padding: 1em;
+    }
+
+    .connect-with-me {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .col1 {
+      width: 50%;
+    }
+
+    .edu,
+    .projects,
+    .skills,
+    .work-experience,
+    .languages,
+    .interests {
+      padding: 1em;
+      line-height: 1.5em;
+    }
+
+    .skills>ul {
+      display: flex;
+    }
+
+    .skills>ul>li {
+      padding: 0.2em;
+    }
+
+    .header {
+      display: flex;
+      padding: 1em;
+      align-items: center;
+      justify-content: center;
+      
+    }
+
+    .header-name {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .header-phone {
+      margin-left: 1em;
+      width: 30px;
+      height: 30px;
+      background-color: #e94b3cff;
+      border-radius: 50%;
+    }
+
+    hr {
+      border: none;
+      height: 2px;
+      background-color: #000;
+      /* Change the background color to dark */
+      margin: 1em 0;
+      /* Add some margin for spacing */
+    }
+
+    .outline {
+      margin: 3em;
+      padding: 0em;
+      border: 4px double #000;
+      background-color: rgb(183 233 245);
+      /* Add light green background color */
+    }
+
+
+    header {
+      background-color: #b7e9f5;
+      padding: 1em;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 1em;
+      text-align: center;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+  <script>
+    function toggleClass(className) {
+      const elements = document.getElementsByClassName(className);
+      for (let i = 0; i < elements.length; i++) {
+        elements[i].classList.toggle("hidden");
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1 class="header-name">Shrutika Gade</h1>
+
+    <button onclick="toggleClass('about-me')">About Me</button>
+    <button onclick="toggleClass('connect-with-me')">Connect With Me</button>
+    <button onclick="toggleClass('edu')">Education</button>
+    <button onclick="toggleClass('projects')">Personal Projects</button>
+    <button onclick="toggleClass('skills')">Skills</button>
+    <button onclick="toggleClass('languages')">Languages</button>
+    <button onclick="toggleClass('interests')">Interests</button>
+  </header>
+
+  <div class="outline">
+    <div class="header">
+      <div class="about-me">
+        <h1>Shrutika Gade</h1>
+        <br />
+        <h2>Student at Vishwakarma Institute of Technology, Pune</h2>
+        <br />
+        <div class="info">
+          As a web developer, I specialize in designing and developing
+          innovative, user-friendly websites. With expertise in HTML, CSS,
+          JavaScript, and React, I create custom web solutions that exceed
+          client expectations. My strengths in FrontEnd allow me to deliver
+          intuitive, visually appealing sites that drive results.
+        </div>
+      </div>
+      <div class="connect-with-me">
+        <img src="shrutika.png" alt="Profile Photo" width="100" height="100" />
+        <ul>
+          <li><a href="mailto:shrutikagade7323@gmail.com">shrutikagade7323@gmail.com</a></li>
+          <li>Name: Shrutika Gade</li>
+          <li>Mobile no.: 9999999999</li>
+          <li>Place: Pune</li>
+          <li><a href="https://github.com/shrutika-07">Github</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="main">
+      <div class="col1">
+        <div class="edu">
+          <h2>Education</h2>
+          <br />
+          <h3>Diploma</h3>
+          <ul>
+            <li><a href="#">STES's Sou. Venutai Chavan Polytechnic, Pune</a></li>
+          </ul>
+          <ul>
+            <li>
+              <p>2019-2022</p>
+            </li>
+          </ul>
+          <h3>Engineering</h3>
+          <ul>
+            <li><a href="#">Vishwakarma Institute of Technology, Pune</a></li>
+          </ul>
+          <ul>
+            <li>
+              <p>2022-2025</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="projects">
+          <h2>Personal Projects</h2>
+          <ul>
+            <li>AI-Enabled Water Well Predictor</li>
+            <li>Explore India using Three.js</li>
+            <li>Smart Water Dispenser</li>
+          </ul>
+        </div>
+
+        <div class="languages">
+          <h2>Languages</h2>
+          <br />
+          <ul>
+            <li>English (Fluent)</li>
+            <li>Hindi (Fluent)</li>
+            <li>German (Fluent)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="interests">
+          <h2>Interests</h2>
+          <br />
+          <ul>
+            <li>Web Development</li>
+            <li>Mobile App Development</li>
+          </ul>
+        </div>
+
+        <div class="skills">
+          <h2>Skills</h2>
+          <br />
+          <ul>
+            <li>HTML</li>
+            <hr />
+            <li>CSS</li>
+            <hr />
+            <li>JavaScript</li>
+            <hr />
+            <li>React</li>
+            <hr />
+            <li>Java</li>
+            <hr />
+            <li>Python</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>@shrutikagade , All rights reserved(2023)</p>
+  </footer>
+</body>
+
+</html>

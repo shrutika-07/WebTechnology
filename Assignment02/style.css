@@ -1,0 +1,77 @@
+/* Add your custom styles here */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-tabs {
+    background-color: #007bff;
+    border-radius: 4px;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link.active {
+    background-color: #ffffff;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.tab-pane {
+    padding: 20px;
+}
+
+/* Additional Styles */
+h2 {
+    color: #007bff;
+}
+
+p {
+    color: #495057;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Style the container for course projects */
+#course {
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Style the highlighted course projects */
+#course ul {
+    list-style-type: square;
+    color: #006400;
+    font-weight: bold;
+}
+
+/* Style the code snippet */
+code {
+    background-color: #f8f9fa;
+    padding: 2px 4px;
+    color: #007bff;
+}
+
